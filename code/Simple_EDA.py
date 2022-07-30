@@ -10,8 +10,9 @@ import matplotlib.pyplot as plt
 # In[2]:
 
 #Load the student enrolments data from the excel file 
-Student_df = pd.read_excel("01-student-enrolments.xlsx", header=None, names = ["University","2009 – Headcounts","2009 - FTEs","2010 – Headcounts","2010 – FTEs","2011 – Headcounts",
-                                                                                "2011 – FTEs","2012 – Headcounts","2012 – FTEs","2013 – Headcounts","2013 – FTEs"])
+Student_df = pd.read_excel("01-student-enrolments.xlsx", header=None, \
+                           names = ["University","2009 – Headcounts","2009 - FTEs","2010 – Headcounts","2010 – FTEs","2011 – Headcounts",
+                                                              "2011 – FTEs","2012 – Headcounts","2012 – FTEs","2013 – Headcounts","2013 – FTEs"])
 #Check the first 5 rows of the data
 Student_df.head()
 
